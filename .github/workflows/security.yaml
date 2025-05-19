@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Bandit (Python security linter)
-        uses: tj-actions/bandit@v6
+        uses: tj-actions/bandit@v5
         with:
           targets: "."
 
